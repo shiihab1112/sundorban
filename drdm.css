@@ -1,0 +1,268 @@
+                        * {
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        .hmenu {
+                            text-align: right;
+                            margin-left: 20px;
+                        }
+                        
+                        .himg {
+                            background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/23/Sundarban_Tiger.jpg);
+                            height: 1070px;
+                        }
+                        
+                        .himg p {
+                            font-size: 40px;
+                            color: burlywood;
+                            text-align: center;
+                            line-height: 300px;
+                        }
+                        
+                        code {
+                            color: rgb(205, 207, 62);
+                            font-size: 50px;
+                        }
+                        
+                        .as {
+                            color: rgb(207, 188, 156);
+                            text-align: center;
+                            font-size: 40px;
+                        }
+                        
+                        .asd {
+                            font-size: 20px;
+                        }
+                        
+                        .asdf {
+                            font-size: 20px;
+                        }
+                        
+                        .ass::before {
+                            content: "beer in sundorban";
+                            height: 100%;
+                            width: 100%;
+                            background-color: rgba(0, 128, 0, 0.61);
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: .4s;
+                        }
+                        
+                        .ass:hover::before {
+                            visibility: visible;
+                            opacity: 1;
+                            height: 100%;
+                        }
+                        
+                        .ass {
+                            transform: scale(1);
+                            transition: .4s;
+                        }
+                        
+                        .ass:hover {
+                            transform: scale(1.1);
+                        }
+                        
+                        .asss {
+                            transform: translate(0px);
+                            transition: .6s;
+                        }
+                        
+                        .asss:hover {
+                            transform: translate(30px, 30px);
+                        }
+                        
+                        .hmenu ul {
+                            background-color: rgba(18, 160, 160, 0.849);
+                        }
+                        
+                        .hmenu ul li {
+                            display: inline-block;
+                        }
+                        
+                        .hmenu ul li a {
+                            text-decoration: none;
+                            color: rgb(255, 255, 255);
+                            font-size: 25px;
+                            list-style: none;
+                            display: block;
+                            padding: 5px 20px;
+                            border-right: 1px solid white;
+                        }
+                        
+                        .hmenu ul li :first-child a {
+                            border-left: 1px solid white;
+                        }
+                        
+                        .hmenu ul li:hover>a {
+                            background-color: rgb(85, 123, 172);
+                        }
+                        /*dr menu start*/
+                        
+                        .hmenu ul li {
+                            position: relative;
+                        }
+                        
+                        .hmenu ul li ul {
+                            position: absolute;
+                            top: 100%;
+                            left: 0;
+                            width: 200px;
+                            background-color: rgba(18, 160, 160, 0.849);
+                            border: none;
+                            border-top: 1px solid #ddd;
+                            transition: .4s;
+                        }
+                        
+                        .hmenu ul li ul li {
+                            display: block;
+                        }
+                        
+                        .hmenu ul li ul li a {
+                            display: block;
+                            border-bottom: 1px solid #ddd;
+                        }
+                        /*hover part*/
+                        
+                        .hmenu ul li ul {
+                            opacity: 0;
+                            visibility: hidden;
+                            transform: scaleY(0);
+                            transform-origin: top center;
+                        }
+                        
+                        .hmenu ul li:hover ul {
+                            visibility: visible;
+                            opacity: 1;
+                            transform: scaleY(1);
+                        }
+                        
+                        .img {
+                            margin-top: 100px;
+                            margin-left: 50px;
+                        }
+                        
+                        .ak {
+                            height: 300px;
+                            width: 300px;
+                            background-color: green;
+                            display: inline-block;
+                            margin-left: 30px;
+                            margin-bottom: 100px;
+                            transform: rotate(0deg);
+                            transition: 1s;
+                            margin-top: 40px;
+                        }
+                        
+                        .ak {
+                            display: inline-block;
+                            height: 200px;
+                            width: 300px;
+                            background-color: green;
+                            margin-left: 30px;
+                            transform: scale(0px);
+                            transition: 1s;
+                            margin-top: 50px;
+                        }
+                        
+                        .ak img {
+                            max-width: 100%;
+                        }
+                        
+                        .ak:hover {
+                            transform: rotate(45deg);
+                        }
+                        
+                        .trm {
+                            height: 300px;
+                            width: 300px;
+                            text-align: center;
+                            display: inline;
+                        }
+                        
+                        .trm img {
+                            max-width: 100%;
+                            max-height: 100%;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .im1 {
+                            display: inline-block;
+                        }
+                        /*social menu start*/
+                        
+                        .socialmenu {
+                            margin-top: 100px;
+                        }
+                        
+                        .socialmenu ul {
+                            text-align: center;
+                        }
+                        
+                        .socialmenu ul li a {
+                            color: white;
+                            background-color: rgba(243, 22, 22, 0.904);
+                            font-size: 40px;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            height: 50px;
+                            width: 50px;
+                            display: inline-block;
+                            line-height: 50px;
+                            border-radius: 30%;
+                            margin-bottom: 20px;
+                            margin-top: 60px;
+                            transition: .4s;
+                        }
+                        
+                        .socialmenu ul li a:hover {
+                            background-color: rgba(0, 0, 255, 0.986);
+                            color: rgb(255, 0, 0);
+                        }
+                        
+                        .footer {
+                            height: 300px;
+                            background-color: #0a0a0acc;
+                        }
+                        
+                        .mybtn {
+                            text-align: center;
+                            margin-top: 30px;
+                        }
+                        
+                        .btn {
+                            font-size: 30px;
+                            text-decoration: none;
+                            background-color: skyblue;
+                            display: inline-block;
+                            color: white;
+                            padding: 15px 40px;
+                            border-radius: 10px;
+                            position: relative;
+                            z-index: 1;
+                        }
+                        
+                        .btn::before {
+                            content: "";
+                            height: 100%;
+                            width: 0%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background-color: rgb(55, 52, 233);
+                            border-radius: 10px;
+                            transition: .7s;
+                            z-index: -1;
+                        }
+                        
+                        .btn:hover::before {
+                            width: 100%;
+                        }
+                        
+                        .qw {
+                            margin-left: 650px;
+                            font-size: 15px;
+                            color: white;
+                            display: inline;
+                        }
